@@ -3,13 +3,14 @@
 /**
  * main - prints all possible different combinations of two digits
  *
- * Return: Always 0 (success)
+ *  Return: Always 0 (success)
  *
  */
 
 int main(void)
 
 {
+
 	int ones = '0';
 	int tens = '0';
 
@@ -17,11 +18,11 @@ int main(void)
 	{
 		for (ones = '0'; ones <= '9'; ones++)/* prints ones digit*/
 		{
-			if (!((ones == tens) || (tens > ones)))/eliminates repitition/
+			if (!((ones == tens) || (tens > ones)))/*eliminates repitition*/
 			{
 				putchar(tens);
 				putchar(ones);
-				f (!(ones == '9' && tens == '8'))/addes commma and space/
+				if (!(ones == '9' && tens == '8'))/*addes commma and space*/
 				{
 					putchar(',');
 					putchar(' ');
@@ -33,5 +34,5 @@ int main(void)
 	putchar('\n');
 
 	return (0);
-
 }
+
