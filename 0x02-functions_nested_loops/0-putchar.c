@@ -1,13 +1,14 @@
 #include "main.h"
-#include <unistd.h>
 
 /**
- * main - prints _putchar and a new line
- * Return: Always 0
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
  */
+
 int main(void)
 {
-	_putchar('_');
+	putchar('');
 	_putchar('p');
 	_putchar('u');
 	_putchar('t');
