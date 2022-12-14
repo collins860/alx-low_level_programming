@@ -3,8 +3,8 @@
 
 /**
  * print_times_table - prints time table with provided number
- *  @n: the provided value by the user
- *  Return: Always 0 (Success)
+ * @n: the provided value by the user
+ * Return: Always 0 (Success)
  */
 
 void print_times_table(int n)
@@ -14,8 +14,6 @@ void print_times_table(int n)
 	int product;
 
 	if (n < 0 || n >= 15)
-		return;
-	for (row = 0; row <= n; row++)
 	{
 		for (column = 0; column <= n; column++)
 		{
