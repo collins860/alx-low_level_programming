@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- *  print_diagonal - print slash
- *  @n: params
+ * print_diagonal - print slash
+ * @n: params
  */
 
 void print_diagonal(int n)
@@ -24,6 +24,6 @@ void print_diagonal(int n)
 	}
 	else
 	{
-		putchar('\n');
+		_putchar('\n');
 	}
 }
