@@ -1,7 +1,5 @@
 nclude "main.h"
 
-
-
 /**
  * _strcmp - Function that compares two strings.
  *
